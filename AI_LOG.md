@@ -10,6 +10,7 @@ to explain at the demo.
 | Date | Who | Tool and model | What we asked | What we kept or changed | How we checked it |
 |---|---|---|---|---|---|
 | 2026-10-20 | (name) | GitHub Copilot, Auto | Explain pricing.py and the tests | Nothing changed | Read the code and ran pytest |
+| 2026-10-21 | Instructor + agent | Claude (Cowork) | A backup for the options class: a payoff app from the class prompt, and a Colab starter notebook | `payoff.py`, `app.py`, `tests/test_payoff.py` and `payoff_starter.ipynb`, now their own repository | Its 4 tests pass; the class checks the numbers |
 
 ## 2. Critic review
 Run the critic agent in a **new chat session**, before each milestone and before the demo. Log every
